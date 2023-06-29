@@ -1,0 +1,40 @@
+.centered {
+    text-align: center;
+}
+
+.padded {
+    padding: 50px 50px 80px 80px;
+}
+
+.bottom {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+}
+
+.textmal {
+    color: white;
+    font-family: "Monaco", Monospace;
+}
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/4268145.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 23vw;
+    object-fit: cover;
+}
